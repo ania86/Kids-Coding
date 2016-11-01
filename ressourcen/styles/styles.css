@@ -1,0 +1,165 @@
+@font-face {
+	font-family: "Lobster", cursive;
+	font-family: 'Quicksand', sans-serif;
+}
+
+body {
+	margin-top: 50px;
+	font-family: "Quicksand";
+	line-height: 150%;
+	color: #1e0e4b;
+}
+
+a {
+	color: #17c2b1;
+}
+
+a:hover {
+	color: #9a67ac;
+	text-decoration: none;
+}
+
+.navbar-brand {
+	width: 200px;
+	position: relative;
+}
+
+.navbar {
+	background-color: #fff;
+	border-bottom: none;
+	-webkit-box-shadow: 0 0 15px rgba(5, 44, 64, 0.3);
+	-moz-box-shadow: 0 0 15px rgba(5, 44, 64, 0.3);
+	box-shadow: 0 0 15px rgba(5, 44, 64, 0.3);
+}
+
+.logo {
+	font-size: 30px;
+	font-family: "Lobster";
+}
+
+.facebook {
+	width: 80px;
+	padding-left: 4px;
+	padding-bottom: 5px;
+}
+
+section {
+	padding: 100px 0 100px 0;
+}
+
+.section-header {
+	background-image: url("../bilder/wasser.png");
+	background-size: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-family: "Lobster";
+	color: #17c2b1;
+}
+
+h1 {
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+h3 {
+	margin-bottom: 20px;
+}
+
+.first-paragraph {
+	padding-bottom: 50px;
+	text-align: center;
+}
+
+.slogan {
+	color: #fff;
+	font-size: 4em;
+	padding-bottom: 50px;
+}
+
+.btn-facebook {
+	background-color: #fff;
+	border: none;
+	height: 60px;
+	padding-left: 40px;
+	padding-right: 40px;
+	display: block;
+	margin: 0 auto;
+}
+
+.section-about {
+	background-color: #1e0e4b;
+	color: #fff;
+}
+
+.section-about h1 {
+	text-align: left;
+}
+
+.section-about p {
+	position: relative;
+	width: 50%;
+	font-size: 150%;
+	line-height: 150%;
+	float: left;
+	display: inline;
+	text-align: justify;
+	padding-right: 50px;
+}
+
+.section-about img {
+	position: relative;
+	width: 50%;
+	display: inline;
+	border: solid 10px #fff;
+}
+
+.me {
+	display: block;
+	float: left;
+}
+
+.section-hobby {
+	background-color: #eaf9f7;
+}
+
+.media-left img {
+	width: 70px;
+	height: 70px;
+}
+
+.media-left p {
+	text-align: justify;
+}
+
+.media {
+	width: 50%;
+	display: inline;
+}
+
+.section-video {
+	background-color:#1e0e4b;
+	color: #fff;
+}
+
+.video {
+	width: 600px;
+	height: 400px;
+	display: block;
+	margin: auto;
+}
+
+.section-inspiration {
+	background-color: #eaf9f7;
+}
+
+.section-footer {
+	background-color: #110928;
+	color: #fff;
+	padding: 20px 0;
+}
